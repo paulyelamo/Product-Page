@@ -1,0 +1,171 @@
+body
+{
+	background: black;
+}
+
+p,h1,h2
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+.page
+{
+	background: white;
+	width: 1214px;
+	height: 700px;
+	position: absolute;
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%,-50%);
+}
+
+.top
+{
+	margin-top: 3px;
+	margin-left: 30px;
+	margin-right: 20px;
+	color: #686868;
+}
+
+.options
+{
+	float: right;
+	display: flex;
+}
+
+.options > div
+{
+	font-size: 20px;
+	margin-right: 25px;
+}
+
+.name
+{
+	display: inline-block;
+
+}
+
+.middle
+{
+	width: 97%;
+	margin: auto;
+	border-top: 1px solid;
+	color: #ede9e9;
+	overflow: hidden;
+
+}
+
+.breadcrum
+{
+	width: 50%;
+	color: #686868;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.left
+{
+
+	width: 55%;
+	display: inline-block;
+	float: left;
+	height: 560px;
+	padding-left: 5px;
+}
+
+.right
+{
+
+	width: 41%;
+	float: right;
+	display: inline-block;
+	height: 550px;
+}
+
+.bigimg
+{
+	height: 380px;
+	max-height: 100%;
+	max-width: 100%;
+	background-image: url('product3.jpeg');
+	background-position: center;
+	background-size: cover;
+}
+
+.carousel
+{
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	margin-right: 0px;
+}
+
+.carousel1
+{
+	width: 205px;
+	height: 205px;
+	max-height: 100%;
+	max-width: 100%;
+	background-image: url('product3.jpeg');
+	background-repeat: no-repeat;
+	margin-right: 15px;
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel2
+{
+	width: 205px;
+	max-height: 100%;
+	max-width: 100%;
+	background-image: url('product2.jpeg');
+	margin-right: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carousel3
+{
+	width: 205px;
+	height: 205px;
+	max-height: 100%;
+	max-width: 100%;
+	background-image: url('product1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+.price
+{
+	color: black;
+	border-bottom: 1px solid;
+	border-color: #ede9e9;
+	padding-bottom: 20px;
+	padding-top: 25px;
+}
+
+.price > h1 , p
+{
+	color: #686868;
+}
+
+.description
+{
+	margin-top: 30px;
+	letter-spacing: .5px;
+	line-height: .7cm;
+}
+
+.buttom input
+{
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right:  40px;
+	border: none;
+	background: #3e3e3f;
+	color: white;
+}
